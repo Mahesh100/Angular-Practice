@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';  //property of app component
+  data = 'Hello code';
+
+  //Function
+getValue(){
+    return "This function returning value"
+  }
 }

@@ -22,3 +22,12 @@
 8) .browserlistsrc : All supported browser
 9) karma.config.js : configuration for testing file
 10) polyfill.ts :
+
+
+# Interpolation in Angular
+
+-Interpolation is used to display dynamic data on html page
+
+-Interpolation can be used in app.component.html file
+
+-we can not assaign value using interpolation
