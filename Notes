@@ -1,3 +1,24 @@
 # Angular is front end framework which is used to develop single page applications
 
 - Angular is based on MVC framework
+
+# File and Folder structure in angular
+
+1) package.json : All project related and dependencies present here
+2) node modules : All liberies here
+3) src folder : All actual code files
+     i) app : All compoent files here
+     ii) asset: public file for images and etc
+     iii) Environment : All the environment related file testing, build. etc
+     iv)  HTML file : All html code here
+     v) main.js : This helps angular all js code in root file, main.js file will connect html with angular
+     vi) style.css : Global css style
+     
+
+4) package-lock.json : 
+5) angular.json : for application configuration, for folders and files
+6) tscongig.json : Default configuration for typescript
+7) tsconfigspec.json : for testing angular application
+8) .browserlistsrc : All supported browser
+9) karma.config.js : configuration for testing file
+10) polyfill.ts :
