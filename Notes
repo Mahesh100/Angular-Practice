@@ -91,4 +91,10 @@
       -both html and css written inisde ts file
 
 
+# Modules in Angular
 
+- Module is the complete feature of your angular application
+- Module is nothing but the one of the feature of  your application (Important Feature)
+- Multiple components, services, pipes, classes and interfeaces are comes under module
+- Module is indepndent feature or functionality of your application
+- 

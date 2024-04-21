@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ProfileComponent } from './profile/profile.component';
-import { SignInComponent } from './user_auth/sign-in/sign-in.component';
+
 import { UserListComponent } from './user-list/user-list.component';
 import { HeaderComponent } from './header/header.component';
 import { AdminListComponent } from './admin-list/admin-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { CountryComponent } from './country/country.component';
+
+import { UserAuthenticationModule } from './user-authentication/user-authentication.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,6 @@ import { CountryComponent } from './country/country.component';
     LoginComponent,
     RegisterComponent,
     ProfileComponent,
-    SignInComponent,
     UserListComponent,
     HeaderComponent,
     AdminListComponent,
@@ -28,7 +29,8 @@ import { CountryComponent } from './country/country.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    UserAuthenticationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
