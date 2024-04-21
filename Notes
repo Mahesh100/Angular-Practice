@@ -60,4 +60,20 @@
   version (v) Outputs Angular CLI version.
 
 
+# Component in Angular 
+
+- Component is building block of angular framework
+- Component is re-usable in nature
+- 
+
+# Component with Inline Style and Inline Template
+
+ There can be three cases :
+  
+   1) Component directly with the inline style 
+   2) Component with inline template
+   3) Component with inline style as well as inline template
+   
+
+
 

@@ -3,4 +3,10 @@
 
 2) What is angualr cli?
 
-3) 
+3) What is components?
+
+4) Can we change the component name ? (Chnage the selector)
+
+5) what should be length of component ? (No parameter)(make as small as possible)
+
+6) 
