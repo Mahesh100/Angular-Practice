@@ -10,6 +10,8 @@ import { SignInComponent } from './user_auth/sign-in/sign-in.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { HeaderComponent } from './header/header.component';
 import { AdminListComponent } from './admin-list/admin-list.component';
+import { StudentListComponent } from './student-list/student-list.component';
+import { CountryComponent } from './country/country.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AdminListComponent } from './admin-list/admin-list.component';
     SignInComponent,
     UserListComponent,
     HeaderComponent,
-    AdminListComponent
+    AdminListComponent,
+    StudentListComponent,
+    CountryComponent
   ],
   imports: [
     BrowserModule,
