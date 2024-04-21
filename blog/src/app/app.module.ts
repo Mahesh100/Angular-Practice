@@ -9,6 +9,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { SignInComponent } from './user_auth/sign-in/sign-in.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { HeaderComponent } from './header/header.component';
+import { AdminListComponent } from './admin-list/admin-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeaderComponent } from './header/header.component';
     ProfileComponent,
     SignInComponent,
     UserListComponent,
-    HeaderComponent
+    HeaderComponent,
+    AdminListComponent
   ],
   imports: [
     BrowserModule,

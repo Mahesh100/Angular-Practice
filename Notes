@@ -73,7 +73,22 @@
    1) Component directly with the inline style 
    2) Component with inline template
    3) Component with inline style as well as inline template
+
+
+   1) Component directly with the inline style :
+      -Only theree files
+      -No css file
+      - CSS will be written inside ts file (i.e inline)
+      - Used when we need to write only one or two line of css
    
+   2) Component with inline template
+      -Here dont have any html file 
+      -we will just have css, spec and ts file
+      -HTML will be written directly inside the ts file 
+      -Used when we dont have HTML or we just have only one or two tag of html
+
+   3) Component with inline style and inline html
+      -both html and css written inisde ts file
 
 
 
